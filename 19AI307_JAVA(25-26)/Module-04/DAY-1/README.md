@@ -1,51 +1,35 @@
 # Ex.No:4(A) EXCEPTION HANDLING
-### QUESTION:
-You wrote a program that stores input strings into a String array and prints each string in uppercase.  
-However, you encounter a **NullPointerException**.  
+## Ex.No:15 HANDLING NULL VALUES IN STRING ARRAY
 
-**What should you check in your array before calling `.toUpperCase()` on an element?**
+### QUESTION:
+You wrote a program that stores some input strings into a String array and prints each string in uppercase.  
+However, you're getting a NullPointerException.  
+What should you check in your array before calling `.toUpperCase()` on an element?
 
 ---
 
 ### AIM:
-To understand how to avoid `NullPointerException` by checking for null values before performing string operations such as `.toUpperCase()`.
+To write a Java program that safely handles null string values before converting them to uppercase.
 
 ---
 
 ### ALGORITHM:
 
-1. Read a string input.  
-2. Before calling `.toUpperCase()`, check whether the string is `null`.  
-3. If it is null, print an appropriate message.  
-4. Otherwise, convert the string to uppercase and print it.  
-5. End the program safely without exceptions.
+1. Read a string from the user.  
+2. Check if the string is null.  
+3. If it is null, print a message.  
+4. Otherwise, convert it to uppercase.  
+5. End the program.
 
 ---
 
 ### PROGRAM:
 
 ```
-Program to check for null before calling .toUpperCase() on a string
+Program to handle null values before calling toUpperCase()
 Developed by: PAVAN KUMAR A B
 RegisterNumber: 212222040113
 ```
-
----
-
-### What should you check?
-
-Before calling:  
-```
-str.toUpperCase()
-```
-
-You **must check**:
-
-```
-if (str != null)
-```
-
-Otherwise calling `.toUpperCase()` on `null` will throw a `NullPointerException`.
 
 ---
 
@@ -57,7 +41,6 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        
         String input = sc.nextLine();
         
         if (input == null || input.equals("null"))
@@ -71,11 +54,12 @@ public class Main {
 ---
 
 ### OUTPUT:
-<img width="701" height="243" alt="image" src="https://github.com/user-attachments/assets/621fa0f1-ba5f-455c-a0ad-0256b365ed5b" />
+<img width="701" height="243" alt="image" src="https://github.com/user-attachments/assets/cf64c571-40c7-4648-a94c-429e1ee74cf5" />
 
 
 ---
 
 ### RESULT:
-Thus, the program demonstrates that a null check must be done before performing operations like `.toUpperCase()` on a String to avoid `NullPointerException`.
+Thus, the Java program to safely check for null values before calling `toUpperCase()` was successfully executed.
+
 
