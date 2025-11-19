@@ -1,4 +1,4 @@
-<img width="783" height="312" alt="image" src="https://github.com/user-attachments/assets/62620e7f-479b-47b7-8ad6-23799e65b7bf" />## Ex.No:2(E) ACCESS MODIFIERS
+
 ### QUESTION:
 Create a class **Calculator** with:
 - A **non-static method** `add(int a, int b)` that returns the sum  
@@ -85,4 +85,5 @@ class prog {
 
 ### RESULT:
 Thus, the Java program demonstrating static and non-static methods in a class was successfully executed.
+
 
