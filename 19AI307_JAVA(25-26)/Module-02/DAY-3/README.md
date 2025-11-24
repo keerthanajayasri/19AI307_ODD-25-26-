@@ -92,3 +92,4 @@ public class Main {
 Thus, the Java program demonstrating encapsulation using getter and setter methods was successfully executed.
 
 
+
