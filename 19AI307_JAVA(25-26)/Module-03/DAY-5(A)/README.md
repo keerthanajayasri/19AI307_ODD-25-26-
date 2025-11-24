@@ -98,3 +98,4 @@ public class Main {
 Thus, the Java program using an enum with a constructor to represent vehicle types and their wheel counts was successfully executed.
 
 
+
